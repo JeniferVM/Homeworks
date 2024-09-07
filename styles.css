@@ -1,0 +1,144 @@
+.body {
+background-color: rgb(253, 246, 234)
+}
+#title {
+    color: rgb(54, 103, 70);
+    font-size: 2em;
+    font-family: "Nerko One", system-ui;
+    text-align: center; 
+}
+.subTitle {
+    color: rgb(238, 225, 211);
+    font-size: 1em;
+    font-family: "Nerko One", system-ui;
+    line-height: 0%;
+}
+#part2sub {
+    background-color: rgb(253, 246, 234)
+}
+h1{
+    color: rgb(54, 103, 70);
+    font-size: 3em;
+    font-family: "Nerko One", system-ui;
+    text-align: center;
+}
+h2 {
+    color: rgb(107, 46, 46);
+    font-family: "Nerko One", system-ui;
+    font-size: 4em;
+    text-align: center;
+}
+h3 {
+    color: rgb(107, 46, 46);
+    font-family: "Nerko One", system-ui;
+    font-size: 2em;
+    text-align: center;
+}
+h4 {
+    color: rgb(85, 149, 142);
+    font-family: "Nerko One", system-ui;
+    font-size: 3em;
+    text-align:start;  
+    padding: 1em;
+    padding-block: 0em;
+    line-height: 0%;
+}
+.footer {
+    background-color: rgb(63, 75, 63);
+    width: 100%;
+}
+h5 {
+    color: rgb(189, 193, 158);
+    font-family: "Nerko One", system-ui;
+    font-size: 1.7em;
+    text-align:start;  
+}
+h6 {
+    color: rgb(244, 246, 233);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    text-align:start;  
+}
+p {
+    color: rgb(58, 58, 58);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    text-align: justify;
+}
+.link {
+    color: rgb(124, 129, 86);
+    font-family: "Nerko One", system-ui;
+    font-size: 1em;
+    text-align:start;  
+    padding: .5em;
+}
+.formulario {
+    text-align: center;
+    color: rgb(244, 246, 233);
+    font-family: "Caveat", cursive;
+    font-size: 1.5em;
+}
+.sub {
+    background-color: rgb(253, 246, 234);
+}
+.principalImg {
+    width: 100vw;
+    height: 30vw;
+    margin-top: 0vw;
+    object-fit: cover;
+    line-height: 1%;
+}
+.principalImg:hover{
+    opacity: 0.8;
+    object-fit: cover;
+}
+.form {
+    text-align: center;
+    color:rgb(253, 246, 234);
+    font-family: "Nerko One", system-ui;
+    font-size: 1.5em;
+}
+#formSubtitle {
+    color: rgb(253, 246, 234);
+}
+input{
+    background-color: rgb(253, 246, 234);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: .5em;
+    border: .2em solid rgb(124, 129, 86);
+    line-height: 1%;
+}
+input:focus {
+    background-color: rgb(124, 129, 86);
+    color: rgb(253, 246, 234);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: .5em;
+    border: .2em solid rgb(124, 129, 86);
+}
+#enterButton {
+    background-color: rgb(253, 246, 234);
+    font-family:"Nerko One", system-ui;
+    font-size: .5em;
+    border: .2em solid rgb(124, 129, 86);
+    line-height: 1%;
+    width: 10em;
+    height: 2em;
+}
+#enterButton:hover{
+    background-color: rgb(124, 129, 86);
+    border:.2em solid rgb(253, 246, 234);
+}
+.catalogo {
+    display: flex;
+    flex-direction: row;
+}
+.catalogoPics {
+    display: flex;
+    flex-direction: row;
+    width: 33vw;
+    height: 25em;
+    object-fit: cover;
+}
+.catalogoPics:hover {
+    opacity: 0.8;
+}

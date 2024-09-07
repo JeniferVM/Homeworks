@@ -3,36 +3,42 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Mi Primer Sitio Web</title>
+      <title>Catálogo</title>
+      <link rel="stylesheet" href="styles.css">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Nerko+One&display=swap" rel="stylesheet">
    </head>
    <body>
     <h1>Catalogo básico de plantas disponibles</h1>
-    <section>
-        <h2>Cactus</h2>
-        <ol>
-            <h3>cactus 1</h3>
-            <img src="cactus 1.jpeg"> </img>
-
-            <h3>cactus 2</h3>
-            <img src="cactus 2.webp"> </img>
-        </ol>
-    </section>
-    <section>
-        <h2>Crasas</h2>
-        <ol>
-            <h3>crasa 1</h3>
-            <img src="crasa 1.jpg"> </img>
-
-            <h3>crasa 2</h3>
-            <img src="crasa 2.jpeg"> </img>
-    </section>
-    <section>
-        <h2>Suculentas</h2>
-        <ol>
-            <h3>suculenta 1</h3>
-            <img src="suculenta 1.webp"> </img>
-
-            <h3>suculenta 2</h3>
-            <img src="suculenta 2.webp"> </img>
-    </section>
+    <div class="catalogo">
+        <section>
+            <div class="cactusDispo">
+            <h2>Cactus</h2>
+                <img src="cactus 1.jpeg" class="catalogoPics"> </img>
+                <img src="cactus 2.webp" class="catalogoPics"> </img>
+            </div>
+        </section>
+        <section>
+            <div class="crasasDispo">
+            <h2>Crasas</h2>
+                <img src="crasa 1.png" class="catalogoPics"> </img>
+                <img src="crasa 2.jpeg" class="catalogoPics"> </img>
+            </div>
+        </section>
+        <section>
+            <div  class="suculentasDispo">
+            <h2>Suculentas</h2>
+                <img src="suculenta 1.webp" class="catalogoPics"> </img>
+                <img src="suculenta 2.webp" class="catalogoPics"> </img>
+            </div>
+        </section>
+    </div>
    </body>
