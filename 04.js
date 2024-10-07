@@ -1,6 +1,13 @@
-// Resuelve el siguiente problema matemático.
-// Reemplaza el valor de null por el correspondiente.
+function mayoriaDeEdad(edad) {
+  // Determinar si la persona puede ingresar al evento según su edad.
+  // Si tiene 18 años o más, retorna el string: "Allowed".
+  // Caso contrario: "Not allowed".
+  // Tu código:
+  if (edad >= 18){
+    return "Allowed"
+  } else {
+    return "Not allowed"
+  }
+}
 
-const nuevaResta = 10 - 7 === 3;
-
-module.exports = nuevaResta; 
+module.exports = mayoriaDeEdad;

@@ -1,11 +1,21 @@
-function multiplica(x, y) {
-  // La función recibe dos argumentos llamados "x" e "y" que son números.
-  // Retorna el resultado de la multiplicacion de estos argumentos.
-  // Por ejemplo: 
-  // 10, 5 ---> 50
-  // 5, 5 ---> 25
+function esPotenciaDeDos(numero) {
+  // La función recibe un "numero" por argumento.
+  // Determina si es una potencia de 2.
+  // Devuelve true si lo es, sino devuelve false.
+  // PISTA: Utiliza un bucle while.
   // Tu código:
-  return (x * y)
+  if (numero <= 0) {
+    return false;
 }
 
-module.exports = multiplica;
+while (numero > 1) {
+    if (numero % 2 !== 0) {
+        return false;
+    }
+    numero /= 2;
+}
+
+return true;
+}
+
+module.exports = esPotenciaDeDos;

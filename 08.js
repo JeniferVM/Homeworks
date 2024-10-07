@@ -1,16 +1,13 @@
-function esNumeroEntero(numero) {
-  // La función recibe un argumento llamado numero.
-  // Verifica si este es un número entero o no.
-  // Retorna true si lo es, de lo contrario, retorna false.
-  // Por ejemplo: 
-  // 24 ---> true 
-  // -1212 ---> true 
-  // 121.212 ---> false 
-  // Tu código:
-  if (numero === Math.floor(numero)) {
-    return true; 
-  } else {
-    return false;
-  } 
+function esPositivoOInferiorA10(a) {
+   // La función recibe un número "a" por parámetro.
+   // Retorna true si es positivo y menor que 10.
+   // Retorna false en caso contrario.
+   // Tu código:
+   if (a >= 0 && a < 10){
+      return true;
+    } else {
+      return false;
+    }
 }
-module.exports = esNumeroEntero;
+
+module.exports = esPositivoOInferiorA10;

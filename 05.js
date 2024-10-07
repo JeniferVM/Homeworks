@@ -1,6 +1,12 @@
-// Resuelve el siguiente problema matemático.
-// Reemplaza el valor de null por el correspondiente.
+function esVerdadero(valor) {
+  // Si "valor" es verdadero, retorna "Soy verdadero".
+  // Caso contrario, retorna "Soy falso".
+  // Tu código:
+  if (valor === true){
+    return "Soy verdadero"
+  } else { 
+    return "Soy falso"
+  }
+}
 
-const nuevaMultiplicacion = 10 * 4 === 40;
-
-module.exports = nuevaMultiplicacion;
+module.exports = esVerdadero;

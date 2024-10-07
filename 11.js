@@ -1,16 +1,12 @@
-function sonIguales(x, y) {
-  // La función recibe dos argumentos llamados "x" e "y".
-  // Retorna true si "x" e "y" son iguales.
-  // De lo contrario, retorna false.
-  // Por ejemplo: 
-  // 5, 5 ---> true 
-  // 5, 8 ---> false 
+function estaEnRango(num) {
+  // Retorna true si "num" es menor que 50 y mayor que 20.
+  // De lo contrario, retornar false.
   // Tu código:
-  if (x == y) {
-    return true; 
+  if (num < 50 && num > 20){
+    return true;
   } else {
     return false;
   }
 }
 
-module.exports = sonIguales;
+module.exports = estaEnRango;

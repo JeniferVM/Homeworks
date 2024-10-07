@@ -1,11 +1,20 @@
-function resta(x, y) {
-  // La función recibe dos argumentos llamados "x" e "y" que son números.
-  // Retorna el resultado de la resta de estos argumentos.
-  // Por ejemplo: 
-  // 10, 5 ---> 5
-  // 5, 5 ---> 0
-  // Tu código:
-  return (x - y)
+function sumarHastaNConBreak(n) {
+   // La función recibe un numero n por argumento.
+   // Devuelve la suma de todos los números desde 1 hasta n.
+   // Si la suma supera a 100, detén el bucle usando break.
+   // Tu código:
+   let suma = 0;
+
+   for (let i = 1; i <= n; i++) {
+       suma += i;
+
+       if (suma > 100) {
+           break;
+       }
+   }
+
+   return suma;
 }
 
-module.exports = resta;
+
+module.exports = sumarHastaNConBreak;

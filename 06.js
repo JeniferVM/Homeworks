@@ -1,6 +1,12 @@
-// Resuelve el siguiente problema matemático.
-// Reemplaza el valor de null por el correspondiente.
+function tieneTresDigitos(num) {
+  // Si el número recibido tiene tres dígitos, retorna true.
+  // Caso contrario, retorna false.
+  // Tu código:
+if ((num >= 100 && num <= 999) || (num <= -100 && num >= -999)){
+  return true
+} else { 
+  return false
+}
+}
 
-const nuevoModulo = 21 % 5 === 1;
-
-module.exports = nuevoModulo;
+module.exports = tieneTresDigitos;

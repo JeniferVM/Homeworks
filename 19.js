@@ -1,11 +1,18 @@
-function suma(x, y) {
-  // La función recibe dos argumentos llamados "x" e "y" que son números.
-  // Retorna el resultado de la suma de estos argumentos.
-  // Por ejemplo: 
-  // 5, 5 ---> 10
-  // -5, 5 ---> 0
+function sumarHastaN(n) {
+  // La función recibe un número "n" por argumento.
+  // Devuelve la suma de todos los números desde 1 hasta n.
   // Tu código:
- return (x + y)
+  if (n < 1) {
+    return 0;
 }
 
-module.exports = suma; 
+let suma = 0
+for (let i = 1; i <= n; i++) {
+    suma += i;
+}
+
+return suma;
+}
+
+
+module.exports = sumarHastaN;

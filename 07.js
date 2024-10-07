@@ -1,10 +1,13 @@
-function esTipoDato(valor) {
-  // La función recibe un argumento llamado valor.
-  // Retorna el tipo de dato de este valor.
-  // Por ejemplo: "string", "number", "boolean", "object", etc.
+function esParYDivisiblePorTres(a) {
+  // La función recibe un número "a" por argumento.
+  // Retorna true si este es par y divisible por tres a la vez.
+  // Retorna false si no lo es.
   // Tu código:
-  const tipo = typeof valor;
-  return tipo
+  if (a %2 === 0 && a %3 === 0){
+    return true;
+  } else {
+    return false;
+  }
 }
 
-module.exports = esTipoDato; 
+module.exports = esParYDivisiblePorTres;

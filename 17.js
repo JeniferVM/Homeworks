@@ -1,18 +1,25 @@
-function esPositivo(num) {
-  // La función recibe un argumento llamado num el cual es un numero entero.
-  // Retorna como resultado un string que indica si el número es positivo o negativo.
-  // Por ejemplo: 
-  // Si el número es positivo ---> "Es positivo".
-  // Si el número es negativo ---> "Es negativo".
-  // Si el número es 0, devuelve false.
+function colors(color) {
+  // La función recibe un color. Retorna el string correspondiente:
+  // En caso que el color recibido sea "blue"   --> "This is blue".
+  // En caso que el color recibido sea "red"    --> "This is red".
+  // En caso que el color recibido sea "green"  --> "This is green".
+  // En caso que el color recibido sea "orange" --> "This is orange".
+  // Si no es ninguno de esos colores           --> "Color not found".
+  // PISTA: utilizar el statement SWITCH.
   // Tu código:
-  if (num > 0){
-    return "Es positivo";
-  } else if ( num < 0){
-    return "Es negativo";
-  } else { 
-    return false
+  switch (color) {
+    case "blue":
+      return "This is " + color
+    case "red":
+      return "This is " + color
+    case "green":
+      return "This is " + color
+    case "orange":
+      return "This is " + color
+  }
+  if (color !== "blue", "red", "green", "orange") {
+    return "Color not found"
   }
 }
 
-module.exports = esPositivo;
+module.exports = colors;

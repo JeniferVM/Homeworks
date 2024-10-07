@@ -1,6 +1,12 @@
-// Crea una variable de tipo number.
-// Reemplaza el valor de null por el correspondiente.
+function esVerdaderoYFalso(booleano1, booleano2) {
+  // La función recibe dos argumentos "booleano1" y "booleano2".
+  // Retorna true si ambos son verdaderos, caso contrario, retorna false.
+  // Tu código:
+  if (booleano1 === true && booleano2 === true) {
+    return true 
+  }else{
+    return false
+  }
+}
 
-const nuevoNumero = 21;
-
-module.exports = nuevoNumero;
+module.exports = esVerdaderoYFalso;

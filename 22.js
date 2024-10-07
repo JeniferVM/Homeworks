@@ -1,11 +1,16 @@
-function divide(x, y) {
-  // La función recibe dos argumentos llamados "x" e "y" que son números.
-  // Retorna el resultado de la division de estos argumentos.
-  // Por ejemplo: 
-  // 10, 5 ---> 2
-  // 5, 5 ---> 1
+function doWhile(num) {
+  // Aumenta el valor de "num" recibido en 5 hasta un límite de 8 veces.
+  // Retorna el valor final.
+  // PISTA: Utiliza el bucle do-while.
   // Tu código:
-  return (x / y)
+  let contador = 0; 
+
+  do {
+      num += 5; 
+      contador++; 
+  } while (contador < 8); 
+
+  return num; 
 }
 
-module.exports = divide;
+module.exports = doWhile;

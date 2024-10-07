@@ -1,14 +1,12 @@
-function devolverString(string) {
-  // La función recibe un argumento llamado string.
-  // Debe retornar dicho string.
-  // Por ejemplo: 
-  // "texto" ---> "texto" 
-  // "hola mundo" ---> "hola mundo" 
-  // "SoyHenry" ---> "SoyHenry" 
+function esDiezOCinco(num) {
+  // Retornar true si "num" es 10 o 5.
+  // De lo contrario, retornar false.
   // Tu código:
-  if (string === string); {
-    return string
+  if (num === 10 || num === 5 ){
+    return true;
+  } else {
+    return false;
   }
-
 }
-module.exports = devolverString;
+
+module.exports = esDiezOCinco;

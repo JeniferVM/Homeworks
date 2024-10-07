@@ -1,16 +1,21 @@
-function esImpar(num) {
-  // La función recibe un argumento llamado num.
-  // Retorna true si el argumento "num" es impar.
-  // De lo contrario, retorna false.
-  // Por ejemplo: 
-  // 15 ---> true
-  // 14 ---> false
+function saludo(idioma) {
+  // Retornar un saludo en tres diferentes lenguajes:
+  // Si "idioma" es "aleman", devuelve "Guten Tag!".
+  // Si "idioma" es "mandarin", devuelve "Ni Hao!".
+  // Si "idioma" es "ingles", devuelve "Hello!".
+  // Si "idioma" no es ninguno de los anteriores o es `undefined`, devuelve "Hola!".
   // Tu código:
-  if (num % 2 === 0){
-    return false
-  } else {
-    return true
-  }
+  if (idioma === "aleman") {
+    return "Guten Tag!";
+} else if (idioma === "mandarin") {
+    return "Ni Hao!";
+} else if (idioma === "ingles") {
+    return "Hello!";
+} else if (idioma === undefined){
+  return "Hola!"
+} else {
+  return "Hola!"
+}
 }
 
-module.exports = esImpar;
+module.exports = saludo;

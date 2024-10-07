@@ -1,16 +1,15 @@
-function menosQueNoventa(num) {
-  // La función recibe un argumento llamado num.
-  // Retorna true si el argumento "num" es menor que noventa.
+function esEntero(num) {
+  // Retorna true si "num" es un entero, ya sea positivo, negativo o cero.
+  // Ejemplo: 0.8   ---> false
+  // Ejemplo: 1     ---> true
+  // Ejemplo: (-10) ---> true
   // De lo contrario, retorna false.
-  // Por ejemplo: 
-  // 50 ---> true
-  // 91 ---> false
   // Tu código:
-  if (num < 90){
-    return true; 
-  } else { 
+  if (num % 1 === 0){
+    return true;
+  } else {
     return false;
   }
 }
 
-module.exports = menosQueNoventa;
+module.exports = esEntero;
